@@ -1,0 +1,7 @@
+<classpath>
+  <container id="WebProj!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Applications/Eclipse_4.7.3.app/Contents/workspace/WebProj/WebContent/WEB-INF/lib/xwork-core-2.3.37.jar">
+      <source-attachment-path>/var/folders/k0/l8tf1fm527lckxcld19j2jrw0000gn/T/.org.sf.feeling.decompiler1548640535708/source/xwork-core-2.3.37-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>
