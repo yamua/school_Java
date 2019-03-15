@@ -3,7 +3,7 @@
 
 <!-- web.xmlは画面を表示するための設定ファイル -->
 
-  <display-name>webproj2</display-name>
+  <display-name>WebProj2</display-name>
 
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
