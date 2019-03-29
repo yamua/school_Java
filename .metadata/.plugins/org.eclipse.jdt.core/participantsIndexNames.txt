@@ -11,6 +11,8 @@ INDEX VERSION 1.130
 /HelloJSP/src
 /Applications/Eclipse_4.7.3.app/Contents/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1133759385.index
 /HelloServlet/src
+/Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1417222908.index
+/WebProj3/src
 /Applications/Eclipse_4.7.3.app/Contents/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4215625553.index
 /WebProj/src
 /Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1133759385.index
