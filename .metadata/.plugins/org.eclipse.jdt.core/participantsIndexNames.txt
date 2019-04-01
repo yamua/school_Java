@@ -7,6 +7,8 @@ INDEX VERSION 1.130
 /login/src
 /Applications/Eclipse_4.7.3.app/Contents/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3487323795.index
 /WebProj2/src
+/Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/551678835.index
+/WebProj4/src
 /Applications/Eclipse_4.7.3.app/Contents/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1026653004.index
 /HelloJSP/src
 /Applications/Eclipse_4.7.3.app/Contents/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1133759385.index
