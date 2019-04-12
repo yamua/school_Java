@@ -5,7 +5,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>INDEXe</title>
+		<title>INDEX</title>
 	</head>
 	<body>
 		<s:form action="HelloStrutsAction">
