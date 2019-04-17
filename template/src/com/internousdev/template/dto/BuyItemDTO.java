@@ -13,7 +13,7 @@ public class BuyItemDTO {
 		this.itemName = itemName;
 	}
 
-	public String getItemOrice() {
+	public String getItemPrice() {
 		return itemPrice;
 	}
 
