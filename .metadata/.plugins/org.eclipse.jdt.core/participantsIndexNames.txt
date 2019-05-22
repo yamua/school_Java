@@ -23,6 +23,8 @@ INDEX VERSION 1.130
 /HelloServlet/src
 /Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3487323795.index
 /WebProj2/src
+/Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3262435090.index
+/ecsite/src
 /Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4215625553.index
 /WebProj/src
 /Users/My/Desktop/school/school_Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4282066389.index
