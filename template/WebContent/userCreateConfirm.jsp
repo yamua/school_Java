@@ -26,7 +26,7 @@
 		}
 
 		table {
-			text-align:
+			text-align: center;
 			margin: 0 auto;
 		}
 

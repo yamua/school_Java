@@ -10,11 +10,12 @@
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-	<title>UserCreate画面</title>
+	<title>BuyItemConfirm画面</title>
 
 	<style type="text/css">
-	/*===TAG LAYOUT===*/
+		/*===TAG LAYOUT===*/
 		body {
 			margin:0;
 			padding:0;
@@ -29,7 +30,7 @@
 			text-align:center;
 			margin:0 auto;
 		}
-	/*===ID LAYOUT===*/
+		/*===ID LAYOUT===*/
 		#top {
 			width:780px;
 			margin:30px auto;
@@ -52,6 +53,12 @@
 			clear:both;
 		}
 	</style>
+	<script type="text/javascript">
+	function submitAction(url) {
+		$('form').attr('action', url);
+		$('form').submit();
+	}
+	</script>
 </head>
 <body>
 	<div id="header">
@@ -60,45 +67,38 @@
 	</div>
 	<div id="main">
 		<div id="top">
-			<p>UserCreate</p>
+			<p>BuyItem</p>
 		</div>
 		<div>
-			<s:if test="errorMessage != ''">
-				<s:property value="errorMessage" escape="false" />
-			</s:if>
-			<table>
-				<s:form action="UserCreateConfirmAction">
-					<tr>
-						<td>
-							<label>ログインID:</label>
-						</td>
-						<td>
-							<input type="text" name="loginUserId" value="" />
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<label>ログインPASS:</label>
-						</td>
-						<td>
-							<input type="text" name="loginPassword" value="" />
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<label>ユーザー名:</label>
-						</td>
-						<td>
-							<input type="text" name="userName" value="" />
-						</td>
-					</tr>
-					<s:submit value="登録" />
-				</s:form>
-			</table>
-			<div>
-				<span>前画面に戻る場合は</span>
-				<a href='<s:url action="HomeAction" />'>こちら</a>
-			</div>
+			<s:form>
+				<tr>
+					<td>商品名</td>
+					<td><s:property value="session.buyItem_name" /></td>
+				</tr>
+				<tr>
+					<td>値段</td>
+					<td><s:property value="session.total_price" /><span>円</span></td>
+				</tr>
+								<tr>
+					<td>購入個数</td>
+					<td><s:property value="session.count" /><span>個</span></td>
+				</tr>
+								<tr>
+					<td>支払い方法</td>
+					<td><s:property value="session.pay" /></td>
+				</tr>
+				<tr>
+					<td><br></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="戻る" onclick="submitAction('HomeAction')" /></td>
+					<td><input type="button" value="完了" onclick="submitAction('BuyItemConfirmAction')" /></td>
+				</tr>
+			</s:form>
+		</div>
+		<div>
+			<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+			<p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
 		</div>
 	</div>
 	<div id="footer">
