@@ -33,7 +33,7 @@
 		/*=====ID LAYOUT=====*/
 		#top {
 			width: 780px;
-			mardin: 30px auto;
+			margin: 30px auto;
 			border: 1px solid #333;
 		}
 
@@ -74,7 +74,7 @@
 							<table>ログインID:</table>
 						</td>
 						<td>
-							<s:property value="loginUserID" escape="false"/>
+							<s:property value="loginUserId" escape="false"/>
 						</td>
 					</tr>
 					<tr id="box">
