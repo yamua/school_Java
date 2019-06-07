@@ -3,6 +3,7 @@ package com.internousdev.ecsite.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
 import com.internousdev.ecsite.util.DBConnector;
 import com.internousdev.ecsite.util.DateUtil;
 
@@ -13,8 +14,7 @@ public class BuyItemCompleteDAO {
 		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
 		DateUtil dateUtil = new DateUtil();
-		String sql = "INSERT INTO user_buy_item_transaction
-				(item_transaction_id, total_price, total_count, user_master_id, pay, insert_date) VALUES(?, ?, ?, ?, ?, ?)";
+		String sql = "INSERT INTO user_buy_item_transaction(item_transaction_id, total_price, total_count, user_master_id, pay, insert_date) VALUES(?, ?, ?, ?, ?, ?)";
 
 				try {
 					PreparedStatement preparedStatement = connection.prepareStatement(sql);

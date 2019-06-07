@@ -6,12 +6,12 @@
 	<constant name="struts.devMode" value="true" />
 	<package name="com.internousdev.ecsite.action" extends="struts-default">
 		<!-- GoHomeAction -->
-<!-- 		<action name="GoHomeAction" class="com.internousdev.ecsite.action.GoHomeAction" method="execute"> -->
+		<action name="GoHomeAction" class="com.internousdev.ecsite.action.GoHomeAction" method="execute">
 		<!-- ↑説明①：「GoHomeAction」クラスの中で「execute」メソッドが最初に呼び出される -->
 		<!-- ↑説明②：「com.internousdev.ecsite.action」パッケージの「GoHomeAction」に設定する -->
-<!-- 			<result name="success">home.jsp</result> -->
+			<result name="success">home.jsp</result>
 			<!-- ↑説明③：「execute」メソッドの処理結果に応じてフロントに送る「JSPファイル」を設定している -->
-<!-- 		</action> -->
+		</action>
 
 		<!-- HomeAction -->
 		<action name="HomeAction" class="com.internousdev.ecsite.action.HomeAction" method="execute">
@@ -20,10 +20,10 @@
 		</action>
 
 		<!-- LoginAction -->
-<!-- 		<action name="LoginAction" class="com.internousdev.ecsite.action.LoginAction" method="execute"> -->
-<!-- 			<result name="success">buyItem.jsp</result> -->
-<!-- 			<result name="error">login.jsp</result> -->
-<!-- 		</action> -->
+		<action name="LoginAction" class="com.internousdev.ecsite.action.LoginAction" method="execute">
+			<result name="success">buyItem.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
 
 		<!-- UserCreateAction -->
 		<action name="UserCreateAction" class="com.internousdev.ecsite.action.UserCreateAction" method="execute">
@@ -42,27 +42,27 @@
 		</action>
 
 		<!-- BuyItemAction -->
-<!-- 		<action name="BuyItemAction" class="com.internousdev.ecsite.action.BuyItemAction" method="execute"> -->
-<!-- 			<result name="success">buyItemConfirm.jsp</result> -->
-<!-- 			<result name="error">buyItem.jsp</result> -->
-<!-- 		</action> -->
+		<action name="BuyItemAction" class="com.internousdev.ecsite.action.BuyItemAction" method="execute">
+			<result name="success">buyItemConfirm.jsp</result>
+			<result name="error">buyItem.jsp</result>
+		</action>
 
 		<!-- BuyItemConfirmAction -->
-<!-- 		<action name="BuyItemConfirmAction" class="com.internousdev.ecsite.action.BuyItemConfirmAction" method="execute"> -->
-<!-- 			<result name="success">buyItemComplete.jsp</result> -->
-<!-- 			<result name="back">buyItem.jsp</result> -->
-<!-- 		</action> -->
+		<action name="BuyItemConfirmAction" class="com.internousdev.ecsite.action.BuyItemConfirmAction" method="execute">
+			<result name="success">buyItemComplete.jsp</result>
+			<result name="back">buyItem.jsp</result>
+		</action>
 
 		<!-- MyPageAction -->
-<!-- 		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction" method="execute"> -->
-<!-- 			<result name="success">myPage.jsp</result> -->
-<!-- 			<result name="error">home.jsp</result> -->
-<!-- 		</action> -->
+		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction" method="execute">
+			<result name="success">myPage.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
 
 		<!-- LogoutAction -->
-<!-- 		<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction" method="execute"> -->
-<!-- 			<result name="success">home.jsp</result> -->
-<!-- 		</action> -->
+		<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction" method="execute">
+			<result name="success">home.jsp</result>
+		</action>
 
 	</package>
 </struts>

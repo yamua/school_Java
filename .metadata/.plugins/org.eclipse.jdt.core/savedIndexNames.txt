@@ -143,5 +143,4 @@ INDEX VERSION 1.130+/Users/My/Desktop/school/school_Java/.metadata/.plugins/org.
 680071618.index
 2081960521.index
 2109488832.index
-1170150174.index
 276086500.index
