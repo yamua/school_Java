@@ -14,12 +14,12 @@
 		<item value="/Users/My/eclipse-workspace/Capusule"/>
 	</list>
 	<section name="CleanDialogSettings">
-		<item value="581" key="DIALOG_WIDTH"/>
+		<item value="1280" key="DIALOG_WIDTH"/>
 		<item value="false" key="BUILD_ALL"/>
 		<item value="true" key="TOGGLE_SELECTED"/>
-		<item value="447" key="DIALOG_HEIGHT"/>
-		<item value="468" key="DIALOG_X_ORIGIN"/>
-		<item value="118" key="DIALOG_Y_ORIGIN"/>
+		<item value="714" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="23" key="DIALOG_Y_ORIGIN"/>
 		<item value="true" key="BUILD_NOW"/>
 	</section>
 	<section name="NewWizardAction">
